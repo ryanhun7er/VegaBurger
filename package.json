@@ -1,0 +1,24 @@
+{
+  "name": "vegaburger",
+  "version": "1.0.0",
+  "description": "Vegan Burger App",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanhun7er/VegaBurger.git"
+  },
+  "author": "ryanhun7er",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanhun7er/VegaBurger/issues"
+  },
+  "homepage": "https://github.com/ryanhun7er/VegaBurger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "mysql": "^2.18.1"
+  }
+}
