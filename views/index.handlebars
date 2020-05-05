@@ -4,12 +4,17 @@
 <div class="container">
   <div class="leftList">
 
-    <h2>Burgers ready to be devoured</h2>
+    <h2>Burgers Ready!</h2>
 
       <ul>
         {{#each burgers}}
           {{#unless devoured}}
-            {{> burgers/burgers-block devoured=true}}
+          <li>
+            <p>
+               {{> burgers/burgers-block devoured=false}}
+            </p>
+          </li>
+           
           {{/unless}}
         {{/each}}
       </ul>
@@ -36,12 +41,12 @@
   </div>
 
   <div class="rightList">
-    <h2>Burgers that are devoured!</h2>
+    <h2>Burgers devoured!</h2>
 
       <ul>
         {{#each burgers}}
           {{#if devoured}}
-            {{> burgers/burgers-block devoured=false}}
+            {{> burgers/burgers-block devoured=true}}
           {{/if}}
         {{/each}}
       </ul>

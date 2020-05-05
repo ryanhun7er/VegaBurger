@@ -1,3 +1,7 @@
+body {
+    background: radial-gradient(closest-side, #3f87a6, #ebf8e1, #f69d3c);
+}
+
 h1 {
     text-align: center;
 }
@@ -20,6 +24,7 @@ ul {
     justify-content: space-evenly;
     flex-wrap: wrap;
     text-align: center;
+    
   }
 
   .burgergif {
