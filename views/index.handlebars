@@ -1,4 +1,4 @@
-<h1>Burger Time!</h1>
+<h1>VegaBurger</h1>
 <image src="/images/burger.png" class="burgergif"></image>
 
 <div class="container">
@@ -40,7 +40,11 @@
       <ul>
         {{#each burgers}}
           {{#if devoured}}
-            {{> burgers/burgers-block devoured=true}}
+          <li>
+            <p>
+                 {{> burgers/burgers-block devoured=true}}
+            </p>
+          </li>
           {{/if}}
         {{/each}}
       </ul>
