@@ -1,6 +1,6 @@
 @font-face {
     font-family: OstrichSans-Bold;
-    src: url("./images/OstrichSans-Bold.otf") format("opentype");
+    src: url(./images/OstrichSans-Bold.otf) format("opentype");
 }
 
 
@@ -11,10 +11,6 @@ body {
 h1 {
     text-align: center;
 }
-
-/* h2 {
-    text-align: center;
-} */
 
 ul {
     list-style-type: none;
