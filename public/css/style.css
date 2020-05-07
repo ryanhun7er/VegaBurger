@@ -1,6 +1,11 @@
 @font-face {
-    font-family: OstrichSans-Bold;
-    src: url(./images/OstrichSans-Bold.otf) format("opentype");
+    font-family: OstrichSans;
+    src: url(/assets/fonts/ostrich-sans-bold.ttf) format("opentype");
+}
+
+@font-face {
+    font-family: Ostrich2;
+    src: url(/assets/fonts/ostrich-sans-inline-italic.ttf) format("opentype");
 }
 
 
@@ -10,38 +15,55 @@ body {
 
 h1 {
     text-align: center;
+    font-family: OstrichSans;
+    font-size: 10rem;
+
+}
+
+h2, h3 {
+    text-align: center;
+    font-family: OstrichSans;
+    text-decoration: underline;
 }
 
 ul {
     list-style-type: none;
+    font-family: Ostrich2;
+    font-size: 20px;
 }
 
 li {
     text-align: left;
+    
 }
 
 .create-form {
     text-align: center;
 }
 
-.container {
-    margin-top: 70px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    text-align: center;
-    
-  }
-
-  .burgergif {
+.burgergif {
       display: block;
       margin-left: auto;
       margin-right: auto;
       height: 30%;
       width: 30%;
 
-  }
+}
 
-  .middleList {
-      border-style: double;
-  }
+#middleList {
+    border-style: double;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+    font-family: OstrichSans;
+}
+
+.heading {
+    font-family: OstrichSans;
+}
+
+.btn {
+    font-family: Ostrich2;
+}
