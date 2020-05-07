@@ -2,9 +2,11 @@
 var mysql = require("mysql");
 require("dotenv").config();
 
-var connection = mysql.createConnection({
+var connection = mysql.createConnection(
+  // process.env.JAWSDB_URL ||
+  {
     host: process.env.HOST,
-    port: 3306,
+    port: process.env.PORT || 8080,
     user: process.env.USER,
     password: process.env.PASSWORD,
     database: process.env.DATABASE
