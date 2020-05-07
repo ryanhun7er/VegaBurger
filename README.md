@@ -17,7 +17,7 @@
 ## Instructions for Use
 * Insert burger name into input box. Select "Add Burger" or hit enter. Burger will be displayed on left side. Select "Devour" to move to 'Burgers Devoured' list. To remove burgers from 'Devoured' list select remove button.
 
-![gif](/assets//images/burger.gif)
+![gif](/assets/images/burger.gif)
 
 ## License
 * MIT
