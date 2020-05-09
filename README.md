@@ -6,10 +6,11 @@
 
 
 # VegaBurger
-* Create a burger list and dvour them on command! Then delete them from your list at your leisure!
+* Create a burger list and devour them on command! Then delete them from your list at your leisure!
 
 ## Table of Contents
-* 1. Intallation 
+1. Installation 
+
 
 ## Installation
 * Navigate to https://vegaburger.herokuapp.com/
@@ -17,7 +18,7 @@
 ## Instructions for Use
 * Insert burger name into input box. Select "Add Burger" or hit enter. Burger will be displayed on left side. Select "Devour" to move to 'Burgers Devoured' list. To remove burgers from 'Devoured' list select remove button.
 
-![gif](/assets/images/burger.gif)
+![gif](gif/burgergif.gif)
 
 ## License
 * MIT
